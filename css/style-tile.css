@@ -1,0 +1,116 @@
+/*Body Styles*/
+
+body {
+  width: 300px;
+  background: #C6D6EC;
+}
+
+.content {
+  background: #005094;
+}
+
+
+
+/*Primary Header*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/*Body Text*/
+
+p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75em;
+  color: #C6D6EC;
+}
+
+em {
+  color: #C6D6EC;
+}
+
+h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+/*Links*/
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover,
+a:active {
+  color: #C6D6EC;
+  transition: color .5s;
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+  margin: 0;
+}
+
+.colors {
+  padding: 30px 30px 0px 30px;
+}
+
+.patterns {
+  padding: 0px 30px 5px 30px;
+}
+
+.text {
+  padding: 100px 20px 20px 20px;
+}
+
+
+/* Layout for Style Tile*/
+section {
+  margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+  box-shadow: 2px 2px 5px #000;
+  float: left;
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/*Color Pallette*/
+.color-1 {
+  background: #005094;
+}
+
+.color-2 {
+  background: #C6D6EC;
+}
+
+.color-3 {
+  background: #fff;
+}
+
+/*Textures*/
+
+.pattern-1 {
+  background-color: #5c008a;
+  background-image: url(http://www.transparenttextures.com/patterns/argyle.png);
+}
+
+.pattern-2 {
+  background: url("../img/texture/bg.png");
+}
+
+.pattern-3 {
+  background: 
+}
+
+/* Show Grid */
+.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}
